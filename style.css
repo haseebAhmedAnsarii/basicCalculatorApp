@@ -1,0 +1,42 @@
+#calc{
+    width: 300px;
+    height: 405px;
+    margin: 0 auto;
+    border: 3px double #568cc2;
+    border-radius: 20px;
+}
+
+input{
+    width: 97%;
+    height: 55px;
+    background-color: #E9F1FB;
+    border-radius: 15px;
+    font-weight: 900;
+}
+
+input:focus , button:focus{
+    outline: none;
+}
+
+#clear{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.keys{
+    width: 24%;
+}
+
+button{
+    padding: 23px 10px;
+    background-color: #E9F0F7;
+    color: #1E395B;
+    font-weight: 900;
+    border-radius: 25%;
+    transition: all 0.8s;
+    transition-timing-function: ease-in-out;
+}
+
+button:hover{
+    background-color: #FFE880;
+}
